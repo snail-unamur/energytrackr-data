@@ -1,13 +1,13 @@
 # EnergyTrackr Results
 
-This repository contains the raw and processed energy measurement results collected using the **EnergyTrackr** pipeline.
+This repository contains the raw and processed energy measurement results collected using the **EnergyTrackr** pipeline, for the paper **Systematic Detection of Energy Regression and Corresponding Code Patterns in Java Projects**, submitted at FSE 2026.
 
 The goal of this dataset is to support reproducibility and future research on energy-aware software development, energy regressions, and green coding practices.
 
-NOTE: Most of the configuration files are in .json format because initially this is the format used by the EnergyTrackr pipeline. However, now the EnergyTrackr pipeline uses .yaml files for configuration. The .json files are kept for reference but should still be usable with the EnergyTrackr pipeline and can be converted to .yaml format if needed.
+One HTML report is available for each of the three analyzed projects:
 
-NOTE 2: The data used for the thesis is in the following directories:
+- `fastexcel-report.html`
+- `jsoup-report.html`
+- `univocity-parsers-report.html`
 
-- `java/fastexcel`
-- `java/jsoup`
-- `java/univocity-parsers`
+These reports contain all the data discussed in the paper. To view them, please download the files and open them directly in your browser. Kindly note that **opening the reports within Anonymous Github will not work**.
