@@ -1,0 +1,27 @@
+repo:
+  url: "https://github.com/cojen/Maker.git"
+  branch: "main"
+
+execution_plan:
+  test_command: "mvn -q test"
+  granularity: "commits"
+  num_commits: 500
+  num_runs: 1
+  num_repeats: 30
+  randomize_tasks: true
+  setup_commands:
+    - "pip install -r requirements.txt"
+
+limits:
+  max_energy: 10000
+  max_time: 300
+  temperature_safe_limit: 70000
+
+tracked_file_extensions:
+- ""
+
+cpu_thermal_file: "/sys/class/thermal/thermal_zone0/temp"
+
+timeout: 1200
+
+
