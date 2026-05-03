@@ -12,4 +12,22 @@ NOTE 2: The data used for the thesis is in the following directories:
 - `java/jsoup`
 - `java/univocity-parsers`
 
+As a complement to the initial dataset realised by François, new project data was analysed and added by BUSONI Thomas, ARIOUAT Houria, BOMAL Louis, ESSARHIRI Ilias at the university of Namur.
 
+The additional data was added on May 3, 2026, in the following directories:
+
+- `java/simpleopenai`
+- `java/classgraph`
+- `java/maker`
+
+# Open Science
+
+## [See the Research Methodology](1_Open_methodology.md)
+
+## [See the Open Data](2_Open_data.md)
+
+## [See the Open Review](3_Open_review.md)
+
+## [See the Open Access](4_Open_access.md)
+
+## [See the Open Educational Resources](5_Open_educational_resources.md)
