@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Analysis of energy consumption of projects from awesome-java
+version: 1.2.0
+license: "MIT"
+type: dataset
+message: "If you use this, please cite it as below."
+authors:
+    - family-names: "Bechet"
+      given-names: "François"
+    - family-names: "Busoni"
+      given-names: "Thomas"
+    - family-names: "Ariouat"
+      given-names: "Houria"
+    - family-names: "Essarhiri"
+      given-names: "Ilias"
+    - family-names: "Bomal"
+      given-names: "Louis"
+
+abstract: >
+  This release analyses the energy consumption of three more projects coming from awesome-java list.
+
+keywords:
+  - computer science
+  - energy consumption

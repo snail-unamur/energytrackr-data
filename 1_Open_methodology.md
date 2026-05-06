@@ -10,7 +10,7 @@ Those criteria include :
 - The project must be at least partly coded in Java and tested in Java
 - The project must be a _Maven project_ and must include a _pom.xml file_
 - The line coverage of the project must be greater or equal to 60%
-- The amount of lines of java code must be greater or equal to 20000
+- The amount of lines of java code must be greater or equal to 15000
 - Repository must _be maintained up_ to the date of the data collection
 - Number of commits must be greater or equal to 500
 - Tests duration must not exceed 40 seconds to avoid running for too long
