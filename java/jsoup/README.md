@@ -6,4 +6,4 @@ The legacy-data directory contains the data collected during building of the ene
 
 CHANGELOG:
 
-- 2026-05-11 2:40 PM : start a new execution on Jsoup for the 500 last commits on AVA (see config-jsoup.yml)
+- 2026-05-11 4:15 PM : start a new execution on Jsoup for the 500 last commits on AVA (see config-jsoup.yml)
