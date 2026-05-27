@@ -5,13 +5,13 @@ repo:
 
 execution_plan:
   mode: "tests"
-  ignore_failures: true
+  ignore_failures: false
   test_command: "mvn test"
   granularity: "commits"
-  num_commits: 500
+  num_commits: 600
   num_runs: 30
   num_repeats: 1
-  newest_commit: "fe1af201eef8b5678247eb48ce5063eb8c31a1a7"
+  newest_commit: "2a322fc522eeb1513c2afda8d97ba65768b1d68f"
   randomize_tasks: true
   batch_size: 100
   compile_commands:
