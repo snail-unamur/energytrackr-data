@@ -15,3 +15,5 @@
 | Total lines of code (main language)            | 18862                                             |
 | Last update                                    | Sept 17, 2025                                     |
 | Number of commits                              | 560                                               |
+
+Timeout value has been derived from tests duration. On average, for 30 repetitions, commits must not exceed 40 seconds. Moreover, as it was tested, timeout did not affect results.
