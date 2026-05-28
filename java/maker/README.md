@@ -16,6 +16,6 @@
 | Total lines of code (main language)            | 24211                              |
 | Last update                                    | May 6, 2026                        |
 | Number of commits                              | 836                                |
-| JDK version                                    |                                    |
+| JDK version                                    | 17                                   |
 
 Timeout value has been derived from tests duration. On average, for 30 repetitions, commits must not exceed 40 seconds. Moreover, as it was tested, timeout did not affect results.
