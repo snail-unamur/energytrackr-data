@@ -10,10 +10,12 @@
 | Number of analysed commits                     | 500                                      |
 | Number of repetitions                          | 30                                       |
 | Project line coverage                          | 61%                                      |
+| Project Branch Coverage                        | 56%                                      |
 | Main language                                  | Java                                     |
 | Total lines of code                            | 155805                                   |
 | Total lines of code (main language)            | 31028                                    |
 | Last update                                    | October 10, 2025                         |
 | Number of commits                              | 5617                                     |
+| JDK version                                    |                                          |
 
 Timeout value has been derived from tests duration. On average, for 30 repetitions, commits must not exceed 40 seconds. Moreover, as it was tested, timeout did not affect results.
