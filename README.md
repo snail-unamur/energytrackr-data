@@ -12,7 +12,7 @@ NOTE 2: The data used for the thesis is in the following directories:
 - `java/jsoup`
 - `java/univocity-parsers`
 
-As a complement to the initial dataset realised by François, new project data was analysed and added by BUSONI Thomas, ARIOUAT Houria, BOMAL Louis, ESSARHIRI Ilias at the university of Namur.
+As a complement to the initial dataset realised by BECHET François, new project data was analysed and added by BUSONI Thomas, ARIOUAT Houria, BOMAL Louis, ESSARHIRI Ilias at the university of Namur.
 
 The additional data was added on May 3, 2026, in the following directories:
 
@@ -22,12 +22,14 @@ The additional data was added on May 3, 2026, in the following directories:
 
 # Open Science
 
-## [See the Research Methodology](1_Open_methodology.md)
+This section only concerns projects that were added on May 3, 2026.
 
-## [See the Open Data](2_Open_data.md)
+## [See the Research Methodology](new_projects_research_methodology/1_Open_methodology.md)
 
-## [See the Open Review](3_Open_review.md)
+## [See the Open Data](new_projects_research_methodology/2_Open_data.md)
 
-## [See the Open Access](4_Open_access.md)
+## [See the Open Review](new_projects_research_methodology/3_Open_review.md)
 
-## [See the Open Educational Resources](5_Open_educational_resources.md)
+## [See the Open Access](new_projects_research_methodology/4_Open_access.md)
+
+## [See the Open Educational Resources](new_projects_research_methodology/5_Open_educational_resources.md)

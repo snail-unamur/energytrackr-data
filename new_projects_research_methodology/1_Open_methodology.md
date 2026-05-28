@@ -1,4 +1,4 @@
-# Research methodology
+# Open methodology
 
 ## How the data was collected and analysed
 
@@ -13,16 +13,13 @@ Those criteria include :
 - The amount of lines of java code must be greater or equal to 15000
 - Repository must _be maintained up_ to the date of the data collection
 - Number of commits must be greater or equal to 500
-- Tests duration must not exceed 40 seconds to avoid running for too long
+- Tests duration of the last commit must not exceed 40 seconds to avoid running for too long
 
 ## Steps
 
-### About the project analyse
+### About the project selection
 
 To find relevant repositories developed in Java, we select projects from AwesomeJava : https://github.com/akullpp/awesome-java
-
-We first check whether (at least) a pom file exists at the root of the repo.
-Then we execute the command `mvn clean test` or `mvn clean verify`. For some repositories, running the tests and assessing the coverage requires to modify the pom to execute it. Finally we just check if the amount of lines of java code is greater or equal to 20000.
 
 ### On energyTracker
 

@@ -2,7 +2,7 @@
 
 ## Dataset
 
-Data can be accessible following this link : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15584044.svg)](https://doi.org/10.5281/zenodo.15584044)
+Data can be accessed using the following link : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15584044.svg)](https://doi.org/10.5281/zenodo.15584044)
 
 | Ressource      | Link / Id                                                                                                   |
 | -------------- | ----------------------------------------------------------------------------------------------------------- |
