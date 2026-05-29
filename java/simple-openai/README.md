@@ -17,5 +17,7 @@
 | Last update                                    | Sept 17, 2025                                     |
 | Number of commits                              | 560                                               |
 | JDK version                                    | 11                                                |
+| Last Commit SHA                                | 7af0d7d                                           |
+| Total / Failed / Ignored Tests                 | 217 / 0 / 1                                       |
 
 Timeout value has been derived from tests duration. On average, for 30 repetitions, commits must not exceed 40 seconds. Moreover, as it was tested, timeout did not affect results.
