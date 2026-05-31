@@ -16,6 +16,7 @@ execution_plan:
   batch_size: 100
   compile_commands:
     - "mvn clean test-compile"
+    - "mvn test"
 
 limits:
   temperature_safe_limit: 65000
