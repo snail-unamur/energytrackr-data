@@ -11,13 +11,11 @@ execution_plan:
   num_commits: 500
   num_runs: 30
   num_repeats: 1
-  #newest_commit: "3a767deb3fad99bc91cadf799e726dea29de042d"
-  newest_commit: "3c36fd078bd9d694855c5fe8fae05e05d5c441ca"
+  newest_commit: "3a767deb3fad99bc91cadf799e726dea29de042d"
   randomize_tasks: true
   batch_size: 100
   compile_commands:
     - "mvn clean test-compile"
-    - "mvn surefire:test"
 
 limits:
   temperature_safe_limit: 65000
