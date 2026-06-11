@@ -6,7 +6,7 @@ repo:
 execution_plan:
   mode: "tests"
   ignore_failures: true
-  test_command: "env JAVA_TOOL_OPTIONS='-XX:ActiveProcessorCount=14' mvn surefire:test"
+  test_command: "env JAVA_TOOL_OPTIONS='-XX:ActiveProcessorCount=12' mvn surefire:test"
   granularity: "commits"
   num_commits: 500
   num_runs: 30
@@ -16,7 +16,7 @@ execution_plan:
   batch_size: 100
   compile_commands:
     - "mvn clean test-compile"
-    - "env JAVA_TOOL_OPTIONS='-XX:ActiveProcessorCount=14' mvn surefire:test"
+    - "env JAVA_TOOL_OPTIONS='-XX:ActiveProcessorCount=12' mvn surefire:test"
 
 limits:
   temperature_safe_limit: 65000
