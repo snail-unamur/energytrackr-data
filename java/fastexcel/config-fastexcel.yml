@@ -5,7 +5,7 @@ repo:
 
 execution_plan:
   mode: "tests"
-  ignore_failures: false
+  ignore_failures: true
   test_command: "mvn test"
   granularity: "commits"
   num_commits: 500
@@ -16,9 +16,7 @@ execution_plan:
   batch_size: 100
   compile_commands:
     - "mvn clean test-compile"
-
-results:
-  file: "energy_usage.csv"
+    - "mvn test"
 
 limits:
   temperature_safe_limit: 65000
@@ -35,5 +33,3 @@ cpu_thermal_file: "/sys/class/thermal/thermal_zone0/temp"
 
 regression_detection:
   min_commits_before: 0
-
-timeout: 60000
