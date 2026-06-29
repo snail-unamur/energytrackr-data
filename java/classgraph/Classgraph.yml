@@ -3,21 +3,32 @@ repo:
   branch: "main"
 
 execution_plan:
+  mode: "tests"
+  ignore_failures: true
   test_command: "mvn -q test"
   granularity: "commits"
   num_commits: 500
   num_runs: 1
   num_repeats: 30
+  newest_commit: "a03ed5611c6c844c0deb6b32b77a5ba8753d1604"
   randomize_tasks: true
+  batch_size: 100
   compile_commands:
     - "mvn clean test-compile"
+    - "mvn -q test"
 
 limits:
-  temperature_safe_limit: 70000
+  temperature_safe_limit: 65000
+  energy_regression_percent: 20
 
 tracked_file_extensions:
-- ""
+  - "java"
+  - "xml"
+  - "properties"
+  - "yaml"
+  - "yml"
 
 cpu_thermal_file: "/sys/class/thermal/thermal_zone0/temp"
 
-timeout: 1200
+regression_detection:
+  min_commits_before: 0
