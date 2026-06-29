@@ -8,8 +8,8 @@ execution_plan:
   test_command: "mvn -q test"
   granularity: "commits"
   num_commits: 500
-  num_runs: 1
-  num_repeats: 30
+  num_runs: 30
+  num_repeats: 1
   newest_commit: "a03ed5611c6c844c0deb6b32b77a5ba8753d1604"
   randomize_tasks: true
   batch_size: 100
