@@ -1,24 +1,35 @@
+config_version: "1.0.0"
 repo:
   url: "https://github.com/sashirestela/simple-openai.git"
   branch: "main"
 
 execution_plan:
+  mode: "tests"
+  ignore_failures: true
   test_command: "mvn -q test"
   granularity: "commits"
   num_commits: 500
   num_runs: 1
   num_repeats: 30
+  newest_commit: "7af0d7d8daf5c555cd65b202664a2c970be4479e"
   randomize_tasks: true
+  batch_size: 100
   compile_commands:
     - "mvn clean test-compile"
+    - "mvn -q test"
 
 limits:
-  temperature_safe_limit: 70000
+  temperature_safe_limit: 65000
+  energy_regression_percent: 20
 
 tracked_file_extensions:
-- ""
+  - "java"
+  - "xml"
+  - "properties"
+  - "yaml"
+  - "yml"
 
 cpu_thermal_file: "/sys/class/thermal/thermal_zone0/temp"
 
-timeout: 1200
-
+regression_detection:
+  min_commits_before: 0
