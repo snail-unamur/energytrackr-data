@@ -11,7 +11,7 @@ execution_plan:
   num_commits: 500
   num_runs: 30
   num_repeats: 1
-  newest_commit: "5d30a8f23959602f4475a1f74165f06dcc69865e"
+  newest_commit: "ec2cb2e85635adfc4b2466f0c334a8844828ded9"
   randomize_tasks: true
   batch_size: 100
   compile_commands:
