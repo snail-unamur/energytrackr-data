@@ -6,7 +6,7 @@ repo:
 execution_plan:
   mode: "tests"
   ignore_failures: true
-  test_command: "mvn -q test"
+  test_command: "mvn -q test -Djunit.version=5.11.4 -Dmaven.repo.local=.m2"
   granularity: "commits"
   num_commits: 500
   num_runs: 30
@@ -15,8 +15,8 @@ execution_plan:
   randomize_tasks: true
   batch_size: 100
   compile_commands:
-    - "mvn clean test-compile"
-    - "mvn -q test"
+    - "mvn clean test-compile -Djunit.version=5.11.4 -Dmaven.repo.local=.m2"
+    - "mvn -q test -Djunit.version=5.11.4 -Dmaven.repo.local=.m2"
 
 limits:
   temperature_safe_limit: 65000
