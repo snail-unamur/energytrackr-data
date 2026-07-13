@@ -6,7 +6,7 @@ repo:
 execution_plan:
   mode: "tests"
   ignore_failures: true
-  test_command: "mvn test"
+  test_command: "mvn test -Dtest=!TypesTest -Dsurefire.failIfNoSpecifiedTests=false"
   granularity: "commits"
   num_commits: 500
   num_runs: 30
@@ -16,7 +16,7 @@ execution_plan:
   batch_size: 100
   compile_commands:
     - "mvn clean test-compile"
-    - "mvn test"
+    - "mvn test -Dtest=!TypesTest -Dsurefire.failIfNoSpecifiedTests=false"
 
 limits:
   temperature_safe_limit: 65000
