@@ -6,7 +6,7 @@ repo:
 execution_plan:
   mode: "tests"
   ignore_failures: true
-  test_command: "JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 mvn -q test"
+  test_command: "bash -c 'JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 mvn -q test'"
   granularity: "commits"
   num_commits: 500
   num_runs: 30
