@@ -6,7 +6,7 @@ repo:
 execution_plan:
   mode: "tests"
   ignore_failures: true
-  test_command: "mvn -q test"
+  test_command: "JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 mvn -q test"
   granularity: "commits"
   num_commits: 500
   num_runs: 30
@@ -15,8 +15,8 @@ execution_plan:
   randomize_tasks: true
   batch_size: 100
   compile_commands:
-    - "mvn clean test-compile"
-    - "mvn -q test"
+    - "JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 mvn clean test-compile"
+    - "JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 mvn -q test"
 
 limits:
   temperature_safe_limit: 65000
