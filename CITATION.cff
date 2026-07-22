@@ -1,0 +1,28 @@
+cff-version: 1.0.1
+title: "Replication package of EnergyTrackr: A modular energy regressions detection tool"
+version: 1.0.1
+license: "MIT"
+type: dataset
+authors:
+  - family-names: "Bechet"
+    given-names: "François"
+  - family-names: "Maquoi"
+    given-names: "Jérôme"
+  - family-names: "Cruz"
+    given-names: "Luis"
+  - family-names: "Vanderose"
+    given-names: "Benoît"
+  - family-names: "Devroey"
+    given-names: "Xavier"
+
+abstract: >
+  This upload contains the energy measurements results collected using the EnergyTrackr pipeline, for the paper **EnergyTrackr: A modular energy regressions detection tool**, submitted and published in the Tools and Datasets track of ASE 2026.
+
+  The goal of this dataset is to support reproducibility and future research on energy-aware software development, energy regressions, and green coding practices.
+
+  One HTML report is available for each of the three analyzed projects:
+  - ```fastexcel-report.html```
+  - ```jsoup-report.html```
+  - ```univocity-parsers-report.html```
+
+  These reports contain all the data discussed in the paper. To view them, please download the files and open them directly in your browser.""
