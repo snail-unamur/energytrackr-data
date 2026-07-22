@@ -1,6 +1,6 @@
-cff-version: 1.0.1
+cff-version: 1.0.2
 title: "Replication package of EnergyTrackr: A modular energy regressions detection tool"
-version: 1.0.1
+version: 1.0.2
 license: "MIT"
 type: dataset
 authors:
