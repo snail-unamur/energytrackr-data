@@ -12,6 +12,7 @@ execution_plan:
   num_runs: 30
   num_repeats: 1
   newest_commit: "2a322fc522eeb1513c2afda8d97ba65768b1d68f"
+  search_strategy: "pruned_endpoint_segmentation"
   randomize_tasks: true
   batch_size: 100
   compile_commands:
