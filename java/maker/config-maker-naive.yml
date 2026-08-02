@@ -1,0 +1,36 @@
+config_version: "1.0.0"
+repo:
+  url: "https://github.com/cojen/Maker.git"
+  branch: "main"
+
+execution_plan:
+  mode: "tests"
+  ignore_failures: true
+  test_command: "mvn -q test"
+  granularity: "commits"
+  num_commits: 500
+  num_runs: 30
+  num_repeats: 1
+  newest_commit: "ec2cb2e85635adfc4b2466f0c334a8844828ded9"
+  search_strategy: "naive"
+  randomize_tasks: true
+  batch_size: 100
+  compile_commands:
+    - "mvn clean test-compile"
+    - "mvn -q test"
+
+limits:
+  temperature_safe_limit: 65000
+  energy_regression_percent: 20
+
+tracked_file_extensions:
+  - "java"
+  - "xml"
+  - "properties"
+  - "yaml"
+  - "yml"
+
+cpu_thermal_file: "/sys/class/thermal/thermal_zone0/temp"
+
+regression_detection:
+  min_commits_before: 0
