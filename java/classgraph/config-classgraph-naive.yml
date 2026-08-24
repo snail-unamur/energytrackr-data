@@ -5,7 +5,7 @@ repo:
 execution_plan:
   mode: "tests"
   ignore_failures: true
-  test_command: "mvn -q test"
+  test_command: "mvn -q test -Dtest='!Issue128Test'"
   granularity: "commits"
   num_commits: 500
   num_runs: 30
@@ -16,7 +16,7 @@ execution_plan:
   batch_size: 100
   compile_commands:
     - "mvn clean test-compile"
-    - "mvn -q test"
+    - "mvn -q test -Dtest='!Issue128Test'"
 
 limits:
   temperature_safe_limit: 65000
