@@ -1,0 +1,37 @@
+config_version: "1.0.0"
+repo:
+  url: "https://github.com/dhatim/fastexcel"
+  branch: "master"
+
+execution_plan:
+  mode: "tests"
+  ignore_failures: true
+  test_command: "mvn test"
+  granularity: "commits"
+  num_commits: 500
+  num_runs: 30
+  num_repeats: 1
+  newest_commit: "2a322fc522eeb1513c2afda8d97ba65768b1d68f"
+  search_strategy: "naive"
+  randomize_tasks: true
+  batch_size: 100
+  compile_commands:
+    - "mvn clean test-compile"
+    - "mvn test"
+
+limits:
+  temperature_safe_limit: 65000
+  energy_regression_percent: 20
+
+tracked_file_extensions:
+  - "java"
+  - "xml"
+  - "properties"
+  - "yaml"
+  - "yml"
+
+cpu_thermal_file: "/sys/class/thermal/thermal_zone0/temp"
+
+regression_detection:
+  min_commits_before: 0
+
